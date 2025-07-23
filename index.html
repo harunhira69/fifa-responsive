@@ -10,10 +10,13 @@
 </head>
 
 <body>
+<!-- Banner Section -->
+
+
 <header class="max-w-[1240px] mx-auto bg-black rounded-lg">
-<div class="flex mt-7 items-center">
-    <div class="ml-25 ">    <h3 class="font-bold text-6xl text-[#FFFFFF] w-[568px] sm:w-full ">The Greatest show on the earth</h3>
-<p class="text-white mt-5 w-[541px] ">Contrary to popular belief, Lorem Ipsum is not simply 
+<div class="flex flex-col-reverse md:flex-row mt-7 items-center">
+    <div class="md:ml-24 ">    <h3 class="font-bold text-6xl text-[#FFFFFF] md:w-[568px] w-full ">The Greatest show on the earth</h3>
+<p class="text-white mt-5 w-full md:w-[541px] ">Contrary to popular belief, Lorem Ipsum is not simply 
 random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 <button class=" mt-7 w-[187px] h-[57px] rounded-lg bg-[#DD0000] text-[#FFFFFF] text-xl font-medium py-4 px-6">Watch Live <i class="fa-solid fa-arrow-right"></i></button>
 </div>
@@ -24,18 +27,24 @@ random text. It has roots in a piece of classical Latin literature from 45 BC, m
 </header>
 <main class="max-w-[1240px] mx-auto mt-25">
     <section>
-         <div class="flex gap-10 md:flex-col">
-              <div class="bg-black flex flex-col  items-center h-fit md:flex-row gap-5 w-full md:bg-transparent md:justify-center ">
+         <div class="grid grid-cols-12">
+              <div class="bg-black col-span-12 lg:col-span-4 flex flex-col  items-center h-fit md:flex-row gap-5 w-full md:bg-transparent justify-center ">
             <button class="md:border-2 border-gray-600 w-[252px] h-[64px] rounded-xl py-4 px-9 font-medium text-xl bg-white mt-7 text-[#161616]">Upcoming Match</button>
             <button class=" md:border-2 border-gray-600 w-[252px] h-[64px] rounded-xl py-4 px-9 font-medium text-xl bg-white mt-7 text-[#161616]">All Group</button>
             <button class="w-[252px] h-[64px] rounded-xl py-4 px-9 font-medium text-xl bg-[#DD0000] mt-7 text-white mb-2">Blog</button>
            </div>
-           <div class="grid grid-cols-3 gap-4 md:grid-cols-2 lg:grid-cols-2">
+
+        <!-- Card section -->
+         <div class="col-span-12 lg:col-span-8">
+
+         
+
+           <div class="grid grid-cols-1  gap-4 md:grid-cols-2 lg:grid-cols-3">
             <div class="border-2 border-gray-500">
                 <img class="h-[180px] w-full rounded-lg " src="assets/img/matches/matches_2.webp" alt="">
                     <div class="ml-5">
                           <button class="w-[100px] h-[32px]  px-4 py-1 font-medium text-[#161616] border-2 border-black rounded-lg mt-5">Transfer</button>
-                <h3 class="font-semibold text-[#161616] text-xl w-[272px] mt-4">Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
+                <h3 class="font-semibold text-[#161616] text-xl w-full md:w-[272px] mt-4">Transfer Live: Chlesea in talks over Kimpenbe transfer</h3>
                 <div class="flex gap-3 text-[#161616] mt-5">
                     <span><i class="fa-solid fa-clock"></i> 10h</span>
                     <span><i class="fa-regular fa-message"></i> 23</span>
@@ -104,15 +113,17 @@ random text. It has roots in a piece of classical Latin literature from 45 BC, m
             </div>
                     </div>
            </div>
+           </div>
          </div>
     </section>
 </main>
 </body>
+<!-- Footer section -->
 <footer class="mt-20 bg-black">
 <h3 class="font-semibold text-4xl pt-10 text-[#FFFFFF] text-center">
     Goal
 </h3>
-<hr class="mt-10 text-[#FFFFFF] mx-auto w-[1320px]">
+<hr class="mt-10 text-[#FFFFFF] mx-auto w-[90%] md:w-[1320px]">
 <div>
     <ul class="flex justify-center gap-10 mt-12">
         <li class="list-none"><a class="no-underline font-medium text-[#B9B9B9]" href="#">Contact Us</a></li>
